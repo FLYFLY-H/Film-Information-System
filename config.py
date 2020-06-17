@@ -1,0 +1,7 @@
+
+#配置数据库，连接demo
+SQLALCHEMY_DATABASE_URI="mysql+pymysql://root:123@localhost:3306/haha"
+
+SQLALCHEMY_TRACK_MODIFICATIONS = True
+
+SQLALCHEMY_COMMIT_TEARDOWN = True

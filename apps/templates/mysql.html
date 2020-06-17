@@ -1,0 +1,160 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>MYSQL分组综合实验作业</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link href="favicon.ico" rel="shortcut icon">
+        <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../static/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../static/css/fontAwesome.css">
+        <link rel="stylesheet" href="../static/css/templatemo-style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <script src="../static/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+
+        <div class="overlay"></div>
+        <section class="top-part">
+          <video controls autoplay loop>
+            <source src="../static/videos/video.mp4" type="video/mp4">
+            <source src="../static/videos/video.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+        </section>
+
+        <section class="cd-hero">
+
+          <div class="cd-slider-nav">
+            <nav>
+              <span class="cd-marker item-1"></span>
+              <ul>
+                <li class="selected"><a href="#0"><div class="image-icon"><img src="../static/img/contact-icon.png"></div><h6>任务A</h6></a></li>
+                <li><a href="#0"><div class="image-icon"><img src="../static/img/about-icon.png"></div><h6>任务B</h6></a></li>
+                <li><a href="#0"><div class="image-icon"><img src="../static/img/projects-icon.png"></div><h6>任务C</h6></a></li>
+              </ul>
+            </nav>
+          </div> <!-- .cd-slider-nav -->
+
+          <ul class="cd-hero-slider">
+
+            <li class="selected">
+              <div class="heading">
+                <h1>MySql分组综合实验作业</h1>
+                <p><span>开发一个基于WEB的数据库应用<span></p>
+                <p><span>这个应用是查询一个关于电影数据库的数据<span></p>
+                <p><span>数据部分信息经过了脱密处理，数据及相关数据文档由教师指定<span></p>
+              </div>
+             <div class="cd-half-width second-slide">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="content second-content">
+                        <div class="row">
+                          <div class="col-md-7 left-image">
+                            <img src="../static/img/th.jpeg">
+                          </div>
+                          <div class="col-md-5">
+                            <div class="right-about-text">
+                              <h4>任务A</h4>
+                              <p>根据用户ID，搜索用户所看的电影名字和评分及评分，按时间从新到旧排序，给出电影的前三个标签及关联度评分</p>
+                              <div class="primary-button" >
+                                  <a href="{{ url_for('toTask1') }}" >确认查询</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="heading">
+                <h1>MYSQL分组综合实验作业</h1>
+                <p><span>开发一个基于WEB的数据库应用<span></p>
+                <p><span>这个应用是查询一个关于电影数据库的数据<span></p>
+                <p><span>数据部分信息经过了脱密处理，数据及相关数据文档由教师指定<span></p>
+              </div>
+              <div class="cd-half-width second-slide">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="content second-content">
+                        <div class="row">
+                          <div class="col-md-7 left-image">
+                            <img src="../static/img/manwei.jpg">
+                          </div>
+                          <div class="col-md-5">
+                            <div class="right-about-text">
+                              <h4>任务B</h4>
+                              <p>根据输入的关键词，查询电影名字里有关键词的电影</p>
+                              <div class="primary-button">
+                                <a href="{{ url_for('toTask2') }}">确认查询</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="heading">
+                <h1>MYSQL分组综合实验作业</h1>
+                <p><span>开发一个基于WEB的数据库应用<span></p>
+                <p><span>这个应用是查询一个关于电影数据库的数据<span></p>
+                <p><span>数据部分信息经过了脱密处理，数据及相关数据文档由教师指定<span></p>
+              </div>
+              <div class="cd-half-width third-slide">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="content third-content">
+                        <div class="row">
+                          <div class="col-md-7 left-image">
+                            <img src="../static/img/arrival.jpg">
+                          </div>
+                          <div class="col-md-5">
+                            <div class="right-feature-text">
+                              <h4>任务C</h4>
+                              <p>查询某一风格最受欢迎的20部电影</p>
+                              <div class="feature-list">
+                                <ul>
+                                </ul>
+                              </div>
+                              <div class="primary-button">
+                                <a href="{{ url_for('toTask3') }}">确认查询</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+          </ul> <!-- .cd-hero-slider -->
+        </section> <!-- .cd-hero -->
+         <script src="../static/js/vendor/jquery-1.11.2.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../static/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="../static/js/vendor/bootstrap.min.js"></script>
+        <script src="../static/js/plugins.js"></script>
+        <script src="../static/js/main.js"></script>
+
+    </body>
+</html>
